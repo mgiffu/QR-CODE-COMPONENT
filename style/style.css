@@ -1,0 +1,19 @@
+.container {
+  background-color: var(--white);
+  width: 20rem;
+  height: 31.25rem;
+  border-radius: 1.25rem;
+
+  & img {
+    padding: 1rem 1rem 1.5rem;
+  }
+
+  & .text {
+    padding-inline: 2rem;
+    text-align: center;
+
+    & h1 {
+      margin-bottom: 1rem;
+    }
+  }
+}
